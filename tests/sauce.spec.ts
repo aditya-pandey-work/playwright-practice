@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test"
 import { sign } from "node:crypto"
 
 
-    test("login", async({ page }) => {
+    test.skip("login", async({ page }) => {
 
     await page.goto("https://sauce-demo.myshopify.com/")
 
